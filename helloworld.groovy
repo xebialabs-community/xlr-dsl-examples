@@ -1,5 +1,4 @@
-def myrelease = xlrScript {
-  release("Hello World! (started)") {
+def myrelease = release("Hello World! (started)") {
 	  description "Sample release created from Groovy DSL"
 	  phases {
 	    phase ("Hello") {
@@ -11,7 +10,6 @@ def myrelease = xlrScript {
 	      }
 	    }
 	  }
-  }
 }
 
 releaseApi.start(myrelease.id)
