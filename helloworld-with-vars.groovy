@@ -1,3 +1,4 @@
+print "Hello!"
 
 def myrelease = xlrRelease("Hello World! (started)") {
 	  description "Sample release created from Groovy DSL"
