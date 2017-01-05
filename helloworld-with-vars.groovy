@@ -1,7 +1,7 @@
 def releaseVar = release.variables.find { it.key == 'localPasswordVariable'}
 println "release password variable value: ${releaseVar.value}"
 
-def myrelease = release("Hello World! (started)") {
+def myrelease = xlrRelease("Hello World! (started)") {
 	  description "Sample release created from Groovy DSL"
 	  phases {
 	    phase ("Hello") {
