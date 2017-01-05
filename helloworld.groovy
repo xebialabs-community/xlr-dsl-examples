@@ -1,4 +1,4 @@
-def myrelease = release("Hello World! (started)") {
+def myrelease = xlrRelease("Hello World! (started)") {
 	  description "Sample release created from Groovy DSL"
 	  phases {
 	    phase ("Hello") {
